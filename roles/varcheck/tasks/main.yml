@@ -1,6 +1,6 @@
-- name: Include initialize_vars variables
+- name: Include initialize_vars/subrole variables
   import_role:
-    name: initialize_vars
+    name: initialize_vars/subrole
   tags:
     - always
 
