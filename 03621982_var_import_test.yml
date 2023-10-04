@@ -1,0 +1,4 @@
+---
+- hosts: "{{ playbook_host_group_name }}"
+  roles:
+    - role: varcheck

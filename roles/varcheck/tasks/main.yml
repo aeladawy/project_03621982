@@ -1,0 +1,8 @@
+---
+- name: Include initialize_vars variables
+  import_role:
+    name: initialize_vars
+
+- name: Print playbook_host_group_name value
+  ansible.builtin.debug:
+    msg:  "Host group is {{ playbook_host_group_name }}"
