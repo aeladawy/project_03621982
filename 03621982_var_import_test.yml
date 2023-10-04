@@ -1,4 +1,5 @@
 ---
 - hosts: "{{ playbook_host_group_name }}"
+  gather_facts: false
   roles:
     - { role: varcheck, tags: always }
